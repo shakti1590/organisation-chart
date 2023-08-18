@@ -1,0 +1,25 @@
+#treeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f3f3;
+  height: 100vh;
+}
+
+.rdt_Node__circle {
+  transition: transform 0.2s;
+}
+
+.rdt_Node__circle:hover {
+  transform: scale(1.1);
+}
+
+.rdt_Text__attributes {
+  font-size: 12px;
+  fill: #8f6666;
+}
+
+.rdt_Text__name {
+  font-size: 16px;
+  fill: #000000;
+}
